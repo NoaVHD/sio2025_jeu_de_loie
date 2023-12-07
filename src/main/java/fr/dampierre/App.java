@@ -9,12 +9,12 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int place = 20;
         int nbLancer = 5;
-        //int emplacement = 0;
+        int emplacement = 0;
         int resteCase = 20;
         int i = 1;
         int lancer=0;
 
-       int emplacement =  lancer(nbLancer, resteCase, scanner);
+       emplacement =  lancer(nbLancer, resteCase, scanner);
         resultat(emplacement, place);
 }
     public static int lancer(int nbLancer, int resteCase, Scanner scanner) {
